@@ -16,11 +16,11 @@ public class CollectionsExercises {
         linkedList.add(8);
         linkedList.add(2);
         linkedList.add(9);
-        
+
         // - add another 2 as the last element of the list
         linkedList.add(2);
         // - add 4 as the 3rd element of the list
-        linkedList.add(2,4);
+        linkedList.add(2, 4);
         // - invoke the method element() on the list and print the result on the screen
         System.out.print(linkedList.element());
         // - return the list
@@ -31,21 +31,21 @@ public class CollectionsExercises {
         // TODO: create an empty stack
 
         Stack<Integer> stackone = new Stack<>();
-        //  - add 5, 6, 8, 9 to the the stack
+        // - add 5, 6, 8, 9 to the the stack
         stackone.add(5);
         stackone.add(6);
         stackone.add(8);
         stackone.add(9);
 
-        //  - print the first element of the stack on the screen
+        // - print the first element of the stack on the screen
         System.out.print(stackone.get(0));
-        //  - print the last element of the stack on the screen
+        // - print the last element of the stack on the screen
         System.out.print(stackone.get(3));
-        //  - invoke the method pop() on the stack and print the result on the screen
+        // - invoke the method pop() on the stack and print the result on the screen
         System.out.print(stackone.pop());
-        //  - invoke the push(4) method on the stack
+        // - invoke the push(4) method on the stack
         stackone.push(4);
-        //  - return the stack
+        // - return the stack
         return stackone;
     }
 
@@ -59,15 +59,15 @@ public class CollectionsExercises {
         array.add(8);
         array.add(9);
 
-        //  - print the first element of the queue on the screen
+        // - print the first element of the queue on the screen
         System.out.print(array.peek());
-        //  - print the last element of the queue on the screen
+        // - print the last element of the queue on the screen
         System.out.print(array.getLast());
-        //  - invoke the method poll() on the queue and print the result on the screen
+        // - invoke the method poll() on the queue and print the result on the screen
         System.out.print(array.poll());
-        //  - invoke the element() method on the queue and print the result on the screen
+        // - invoke the element() method on the queue and print the result on the screen
         System.out.print(array.element());
-        //  - return the queue
+        // - return the queue
         return array;
     }
 
@@ -88,13 +88,15 @@ public class CollectionsExercises {
         // - add {6, Rust} entry to the map
         map.put(6, "Rust");
 
-        //  - determine the set of keys from the map and print it on the screen
+        // - determine the set of keys from the map and print it on the screen
         System.out.print(map.keySet());
-        //  - determine the set of keys from the map and print it on the screen
+        // - determine the set of keys from the map and print it on the screen
         System.out.print(map.values());
-        //  - determine whether the map contains "English" as a language and print the result on the screen
+        // - determine whether the map contains "English" as a language and print the
+        // result on the screen
         System.out.print(map.containsValue("English"));
-        //  - return the map
+
+        // - return the map
         return map;
     }
 
