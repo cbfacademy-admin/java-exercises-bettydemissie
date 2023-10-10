@@ -69,8 +69,9 @@ public class FlowControlExercises {
 
         // {"SumOfEvens", calculatedSumOfEvens}, {"SumOfOdds", calculatedSumOfOdds}
         Map<String, Integer> result = new HashMap<>();
-        result.put("SumOfEvens", sumOfEvens);
         result.put("SumOfOdds", sumOfOdds);
+        result.put("SumOfEvens", sumOfEvens);
+        
 
         // - returns a map with two entries:
         return result;

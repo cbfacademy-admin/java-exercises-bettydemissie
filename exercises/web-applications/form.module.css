@@ -1,7 +1,10 @@
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
 .label {
    padding-left: 10px;
    font-size: 15px;
-   font-family:Arial, Helvetica, sans-serif;
    color: gray;
 }
 
@@ -22,7 +25,37 @@ input[type="password"]::placeholder {
 }
 
 label {
-   font-size: 15px;
-   font-family:Arial, Helvetica, sans-serif;
-   color: gray;
+   font-size: 14px;
+   color: black;
 }
+
+a {
+    color: red;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 40px;
+}
+.extraconditions
+{
+    padding-top: 10px;     
+    padding-bottom: 10px;
+    width: 340px; 
+    color: red;
+}
+
+
+.extraconditions label {
+  margin-right: 65px; 
+}
+
+button {
+    border-radius: 5px;
+    border: 1px; 
+    width: 330px; 
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: rgb(42, 74, 202);
+    font-size: 14px;
+    color: white;
+}
+

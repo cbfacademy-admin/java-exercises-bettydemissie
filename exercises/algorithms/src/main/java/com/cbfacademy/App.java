@@ -31,6 +31,19 @@ public class App {
         } else {
             System.out.println("\nElement not found in the array");
         }
+
+        
+        int[] myArray = { 5, 2, 9, 1, 5, 6 };
+        int elementToFind = 9;
+
+        int linearresult = LinearSearch.linearSearch(myArray, elementToFind);
+
+        if (linearresult != -1) {
+            System.out.println("Element " + elementToFind + " found at index " + linearresult);
+        } else {
+            System.out.println("Element " + elementToFind + " not found in the array");
+        }
     }
+
     
 }
