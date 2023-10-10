@@ -26,10 +26,13 @@ Analyse the followint HTTP request:
 ```
 
 1. What is the requested URL?
+The requested URL is: /martignon/index.html
 2. Which version of HTTP is used?
+The HTTP version used is HTTP/1.1
 3. Does the browser ask for a persistent or a non-persistent connection?
-4. What is, in your opinion, the utility in indicating the type (and version) of browser used by
-the client in the HTTP Request?
+The browser asks for a persistent connection. This is indicated by the Connection: keep-alive header.
+4. What is, in your opinion, the utility in indicating the type (and version) of browser used by the client in the HTTP Request?
+Indicating the type and version of the browser in the HTTP request helps web servers deliver content that is compatible with the client's capabilities and allows website operators to gather valuable data on their visitors' browsing preferences.
 
 **<ins>Exercise 2</ins>**
 
@@ -51,10 +54,6 @@ An HTML Form is a section of the document that collects input from the user. The
 Read [this documentation][2], and create a HTML form that looks like the following:
 
 ![HTML Form](./html-form.png)
-
-
-
-
 
 [1]: https://developer.mozilla.org/en-US/docs/Web/HTML
 [2]: https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types
