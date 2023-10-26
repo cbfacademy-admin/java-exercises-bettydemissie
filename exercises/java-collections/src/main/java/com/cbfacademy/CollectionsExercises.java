@@ -10,7 +10,16 @@ public class CollectionsExercises {
         // - add 4 as the first element of the list
         linkedList.addFirst(4);
         // - then add 5, 6, 8, 2, 9 to the the list
+
         linkedList.addAll(Arrays.asList(5, 6, 8, 2, 9));
+
+        linkedList.add(5);
+        linkedList.add(6);
+        linkedList.add(8);
+        linkedList.add(2);
+        linkedList.add(9);
+
+
         // - add another 2 as the last element of the list
         linkedList.addLast(2);
         // - add 4 as the 3rd element of the list
@@ -23,38 +32,48 @@ public class CollectionsExercises {
 
     public Stack<Integer> useStack() {
         // TODO: create an empty stack
-        Stack<Integer> stack = new Stack<>();
+
+
+        Stack<Integer> stackone = new Stack<>();
         // - add 5, 6, 8, 9 to the the stack
-        stack.addAll(Arrays.asList(5, 6, 8, 9));
+        stackone.add(5);
+        stackone.add(6);
+        stackone.add(8);
+        stackone.add(9);
+
         // - print the first element of the stack on the screen
-        System.out.println("First element of the stack: " + stack.firstElement());
+        System.out.print(stackone.get(0));
         // - print the last element of the stack on the screen
-        System.out.println("Last element of the stack: " + stack.lastElement());
+        System.out.print(stackone.get(3));
         // - invoke the method pop() on the stack and print the result on the screen
-        Integer poppedElement = stack.pop();
-        System.out.println("Popped element from the stack: " + poppedElement);
+        System.out.print(stackone.pop());
         // - invoke the push(4) method on the stack
-        stack.push(4);
+        stackone.push(4);
         // - return the stack
-        return stack;
+        return stackone;
+
     }
 
     public ArrayDeque<Integer> useArrayDeque() {
         // TODO: create an empty arrayDeque
         ArrayDeque<Integer> arrayDeque = new ArrayDeque<>();
         // - add 5, 6, 8, 9 to the the stack
-        arrayDeque.addAll(Arrays.asList(5, 6, 8, 9));
+        array.add(5);
+        array.add(6);
+        array.add(8);
+        array.add(9);
+
         // - print the first element of the queue on the screen
-        System.out.println("First element of the queue: " + arrayDeque.peek());
+        System.out.print(array.peek());
         // - print the last element of the queue on the screen
-        System.out.println("Last element of the queue: " + arrayDeque.peekLast());
+        System.out.print(array.getLast());
         // - invoke the method poll() on the queue and print the result on the screen
-        Integer polledElement = arrayDeque.poll();
-        System.out.println("Polled element from the queue: " + polledElement);
+        System.out.print(array.poll());
         // - invoke the element() method on the queue and print the result on the screen
-        System.out.println("Element at index 0: " + arrayDeque.element());
+        System.out.print(array.element());
         // - return the queue
-        return arrayDeque;
+        return array;
+
     }
 
     public HashMap<Integer, String> useHashMap() {
@@ -71,6 +90,7 @@ public class CollectionsExercises {
         // - add {5, JavaScript} entry to the map
         hashMap.put(5, "JavaScript");
         // - add {6, Rust} entry to the map
+
         hashMap.put(6, "Rust");
         // - determine the set of keys from the map and print it on the screen
         Set<Integer> keys = hashMap.keySet();
@@ -81,6 +101,20 @@ public class CollectionsExercises {
         System.out.println("Contains 'English' as a language: " + containsEnglish);
         // - return the map
         return hashMap;
+
+        map.put(6, "Rust");
+
+        // - determine the set of keys from the map and print it on the screen
+        System.out.print(map.keySet());
+        // - determine the set of keys from the map and print it on the screen
+        System.out.print(map.values());
+        // - determine whether the map contains "English" as a language and print the
+        // result on the screen
+        System.out.print(map.containsValue("English"));
+
+        // - return the map
+        return map;
+
     }
 
     public String getName() {

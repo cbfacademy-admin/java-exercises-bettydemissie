@@ -4,14 +4,18 @@ public class Paint {
 
     private double coverage;
 
-    public Paint() {
+
+    public Paint(){
         this.coverage = 3.0;
     }
 
-    public double amount(Shape shape) {
+    public double amount(Shape shape){
 
-        return shape.area() * coverage;
+        return shape.area()*coverage;
 
     }
+
+
+    
 
 }
