@@ -14,7 +14,7 @@ For the exercises below, we've provided the starter project above.
 
 ### <ins>Question 1</ins>
 
-Is the following code legal?
+Is the following code legal? Yes
 
 ```java
 try {
@@ -27,6 +27,7 @@ try {
 ### <ins>Question 2</ins>
 
 What exception types can be caught by the following handler?
+It is a broad exception handler that can catch most exceptions in Java.
 ```java
 catch (Exception e) {
     
@@ -58,7 +59,7 @@ A[0] = 0;
 
 The above code produces (choose 1):
 
-- [ ] an error
+- [-] an error
 - [ ] a checked exception
 - [ ] a checked exception
 - [ ] a compile error
@@ -71,7 +72,7 @@ The JVM starts running your program, but the JVM can't find the Java platform cl
 
 What happens (choose 1):
 
-- [ ] an error
+- [-] an error
 - [ ] a checked exception
 - [ ] a checked exception
 - [ ] a compile error
